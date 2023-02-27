@@ -12,6 +12,9 @@
 
 [Logical Diagram Link](https://lucid.app/lucidchart/invitations/accept/inv_d96c3017-4417-4046-bf95-a2acf9110748)
 
+
+## Create a Billing Alarm
+![Billing Alarm](assets/AWS-BillingAlarm.png)
 ## Create a Budget
 I created two budgets as instructed.
 ![AWS-Budget](assets/AWS-Budget.png)

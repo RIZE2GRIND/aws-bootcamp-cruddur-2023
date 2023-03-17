@@ -42,7 +42,6 @@ paths:
                 type: array
                 items:
                   $ref: '#/components/schemas/Activity'
-  /api/activities:
     post:
       description: Create a new activitiy eg. Creating a Crud
       tags:
@@ -148,6 +147,21 @@ paths:
                 type: array
                 items:
                   $ref: '#/components/schemas/Message'
+  /api/activities/notification:
+    get:
+      description: 'REturn a dee of activity for all of those that I follow'
+      tags:
+        - activities
+      parameters: []
+      responses:
+        '200':
+          description: Returns an array of activities
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Activity'
 
 components:
   schemas:
